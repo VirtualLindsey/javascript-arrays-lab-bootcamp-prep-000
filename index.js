@@ -30,3 +30,8 @@ function prependKitten(name){
   let newKittens = [name, ...kittens];
   return newKittens;
 }
+
+function removeLastKitten(){
+  let newKittens = 
+  return newKittens
+}
