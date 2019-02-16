@@ -25,3 +25,8 @@ function destructivelyRemoveLastKitten(name){
   kittens.pop(name);
   return kittens;
 }
+
+function prependKitten(name){
+  let newKittens = kittens.something(name);
+  return newKittens;
+}
