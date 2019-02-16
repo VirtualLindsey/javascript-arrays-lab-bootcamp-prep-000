@@ -27,6 +27,6 @@ function destructivelyRemoveLastKitten(name){
 }
 
 function prependKitten(name){
-  let newKittens = kittens.something(name);
+  let newKittens = [name ... kittens];
   return newKittens;
 }
